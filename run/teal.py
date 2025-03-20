@@ -14,7 +14,7 @@ from lib.teal_actor import TealActor
 from lib.teal_model import Teal
 
 
-TOP_DIR = "teal-logs"
+TOP_DIR = "logs/teal-logs"
 MODEL_DIR = "teal-models"
 HEADERS = [
     "problem",
@@ -33,7 +33,7 @@ HEADERS = [
     "runtime",
 ]
 
-OUTPUT_CSV_TEMPLATE = "teal-{}-{}.csv"
+OUTPUT_CSV_TEMPLATE = "logs/teal-{}-{}.csv"
 
 
 def benchmark(problems, output_csv, arg):
