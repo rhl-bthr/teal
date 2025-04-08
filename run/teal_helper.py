@@ -16,7 +16,6 @@ PROBLEM_NAMES = [
     'ASN2k.json',
 ]
 TM_MODELS = [
-    "real",
     "toy",
 ]
 SCALE_FACTORS = [1.0]
