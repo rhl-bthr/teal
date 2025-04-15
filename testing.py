@@ -6,6 +6,6 @@ with open("topologies/paths/path-form/B4.json-4-paths_edge-disjoint-True_dist-me
         print(key, paths)
 
 
-with open("/home/bothra2/teal/traffic-matrices/real/B4.json_real_0_1.0_traffic-matrix.pkl", "rb") as f:
-    tm = pickle.load(f).astype('int32')
+with open("/home/bothra2/teal/traffic-matrices/toy/ASN2k.json_toy_4_1.0_traffic-matrix.pkl", "rb") as f:
+    tm = pickle.load(f).astype('float')
     print(tm)
