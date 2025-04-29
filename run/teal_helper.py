@@ -95,7 +95,7 @@ def get_args_and_problems(formatted_fname_template, additional_args=[]):
         "--obj", type=str, default='total_flow', choices=OBJ_STRS,
         help="objective function")
     parser.add_argument(
-        "--tm-model", type=str, default='real', choices=TM_MODELS,
+        "--tm-model", type=str, default='toy', choices=TM_MODELS,
         help="traffic matrix model")
     parser.add_argument(
         "--topo", type=str, required=True, choices=PROBLEM_NAMES,
